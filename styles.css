@@ -57,11 +57,11 @@ body {
     font-size: 18px;
     font-weight: lighter;
 }
-.top-text button{
+button{
     padding: 5px 10px;
     width: 120px;
     background-color: #3882F6;
-    border-radius: 25px;
+    border-radius: 9px;
     border: none;
 }
 
@@ -98,10 +98,69 @@ body {
     height: 150px;
 }
 
+.middle-image p{
+    color:  #181818;
+    font-size: 18px;
+}
 
+.middle-quote {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 250px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.quote{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #1F2937
+}
 
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
 
+.bottom {
+    display: flex;
+    margin: 70px;
+    background-color: #3882F6;
+    gap: 60px;
+    padding: 10px 70px;
+}
+
+.bottom button {
+    align-self: center;
+    width: 100px;
+    height: 30px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: #F9FAF8 2px solid;
+}
+
+.text p {
+    color: #F9FAF8;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.bottom-heading {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.bottom-text {
+    font-size: 14px;
+    margin-top: -10px;
+}
 
 
 
