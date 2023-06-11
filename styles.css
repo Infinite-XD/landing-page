@@ -92,6 +92,9 @@ button{
 }
 
 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: #3882F6 5px solid;
     border-radius: 25px;
     width: 150px;
@@ -162,5 +165,12 @@ button{
     margin-top: -10px;
 }
 
-
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;  
+}
+.footer p {
+    color: #F9FAF8;
+}
 
