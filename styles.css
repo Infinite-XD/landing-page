@@ -59,18 +59,44 @@ body {
 }
 .top-text button{
     padding: 5px 10px;
+    width: 120px;
     background-color: #3882F6;
+    border-radius: 25px;
+    border: none;
 }
 
+.middle {
+    display: flex;
+    flex-direction: column;
+}
 
+.middle-images {
+    display: flex;
+    justify-content: space-around;
+}
 
+.middle-heading {
+    align-self: center;
+    margin: 30px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+}
 
+.middle-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
 
-
-
-
-
-
+.image {
+    border: #3882F6 5px solid;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+}
 
 
 
